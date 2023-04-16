@@ -14,26 +14,38 @@
     <Title>Ejercicio 7</Title>
 </head>
 <body>
-  <main>
-    <h1>Piedra | Papel | Tijeras</h1>
-    <div id="campo-batalla" class="campo-batalla">
-        <div id="img-ataque-jugador" class="caja-batala"></div>
-        <div class="caja-batala"><p class="text-mensajes">VS</p></div>
-        <div id="img-ataque-pc" class="caja-batala"></div>
-    </div>
-    <div>
-        <p id="msj-batalla" class="text-mensajes"> </p>
-    </div>
-    <h2>Elije un ataque</h2>
-    <div>
-        <img id="btn-piedra" class="btn-ataques" src="img/" alt="">
-        <img id="btn-papel" class="btn-ataques" src="img/" alt="">
-        <img id="btn-tijeras" class="btn-ataques" src="img/" alt="">
-    </div>
+  <main class="text-bg-warning p-3">
+    <div class="container">
+      <h1>Piedra Papel Tijera</h1>
+  
+      <div id="result">
+  
+          <img id="machine-img" src="img/piedra.png">
+  
+          <div id="start-text">
+              Elije una opcion
+          </div>
+  
+          <img id="user-img" src="img/piedra.png">
+  
+      </div>
+  
+      <div id="group-btn">
+          <button id="piedra" type="button">
+              <img src="img/piedra.png"/>
+          </button>
+          <button id="papel" type="button">
+              <img src="img/papel.png"/>
+          </button>
+          <button id="tijeras" type="button">
+              <img src="img/tijeras.png"/>
+          </button>
+      </div>
+  </div>
   </main>
-    <footer class="bg-dark text-white text-center py-4">
-      <p>&copy; Todos los derechos reservados</p>
-    </footer>
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; Todos los derechos reservados</p>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="js/ejercicio7.js"></script>
 </body>
