@@ -1,5 +1,4 @@
 //Hacer un juego de piedra, papel y tijera
-
 const Piedra = "piedra";
 const Papel = "papel";
 const Tijera = "tijeras";
